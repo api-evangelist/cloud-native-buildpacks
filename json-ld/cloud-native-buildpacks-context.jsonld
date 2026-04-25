@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "cnb": "https://buildpacks.io/ns/",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+
+    "Buildpack": {
+      "@id": "cnb:Buildpack",
+      "@context": {
+        "id": "cnb:id",
+        "version": "schema:softwareVersion",
+        "name": "schema:name",
+        "homepage": {
+          "@id": "schema:url",
+          "@type": "@id"
+        },
+        "apiVersion": "cnb:api_version",
+        "stacks": {
+          "@id": "cnb:stacks",
+          "@container": "@set"
+        },
+        "license": "schema:license"
+      }
+    },
+
+    "Builder": {
+      "@id": "cnb:Builder",
+      "@context": {
+        "id": "cnb:id",
+        "name": "schema:name",
+        "image": "cnb:image",
+        "stack": "cnb:stack",
+        "buildpacks": {
+          "@id": "cnb:buildpacks",
+          "@container": "@set"
+        },
+        "lifecycle": "cnb:lifecycle"
+      }
+    },
+
+    "Stack": {
+      "@id": "cnb:Stack",
+      "@context": {
+        "id": "cnb:id",
+        "buildImage": "cnb:build_image",
+        "runImage": "cnb:run_image"
+      }
+    },
+
+    "BuildPlan": {
+      "@id": "cnb:BuildPlan",
+      "@context": {
+        "provides": {
+          "@id": "cnb:provides",
+          "@container": "@set"
+        },
+        "requires": {
+          "@id": "cnb:requires",
+          "@container": "@set"
+        }
+      }
+    },
+
+    "Layer": {
+      "@id": "cnb:Layer",
+      "@context": {
+        "name": "schema:name",
+        "build": "cnb:build",
+        "launch": "cnb:launch",
+        "cache": "cnb:cache",
+        "metadata": "cnb:metadata"
+      }
+    },
+
+    "Image": {
+      "@id": "cnb:Image",
+      "@context": {
+        "reference": "cnb:reference",
+        "digest": "cnb:digest",
+        "labels": "cnb:labels"
+      }
+    },
+
+    "LifecyclePhase": {
+      "@id": "cnb:LifecyclePhase",
+      "@context": {
+        "name": "schema:name",
+        "version": "schema:softwareVersion"
+      }
+    }
+  }
+}
