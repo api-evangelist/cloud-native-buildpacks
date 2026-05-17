@@ -17,7 +17,7 @@ url: https://raw.githubusercontent.com/api-evangelist/cloud-native-buildpacks/re
 created: '2024-01-01'
 modified: '2026-04-23'
 specificationVersion: '0.19'
-x-type: opensource
+kind: opensource
 tags:
   - Buildpacks
   - CNCF
@@ -164,11 +164,11 @@ common:
     url: https://slack.cncf.io/
   - type: Blog
     url: https://medium.com/buildpacks
-  - type: Roadmap
+  - type: RoadMap
     url: https://github.com/buildpacks/roadmap
   - type: CNCF
     url: https://www.cncf.io/projects/buildpacks/
-  - type: JSON-LD
+  - type: JSONLD
     url: json-ld/cloud-native-buildpacks-context.jsonld
   - type: Spectral
     url: rules/cloud-native-buildpacks-rules.yml
