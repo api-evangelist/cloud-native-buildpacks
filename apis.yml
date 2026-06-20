@@ -12,7 +12,7 @@ description: >-
   Platform API, and Distribution API, all versioned and published in
   the github.com/buildpacks specifications.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/cloud-native-buildpacks/refs/heads/main/apis.yml
 created: '2024-01-01'
 modified: '2026-04-23'
@@ -33,7 +33,7 @@ apis:
     tags:
       - Buildpacks
       - Specification
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://github.com/buildpacks/spec/blob/main/buildpack.md
     properties:
       - url: https://github.com/buildpacks/spec/blob/main/buildpack.md
@@ -52,7 +52,7 @@ apis:
       - Lifecycle
       - Platform
       - Specification
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://github.com/buildpacks/spec/blob/main/platform.md
     properties:
       - url: https://github.com/buildpacks/spec/blob/main/platform.md
@@ -71,7 +71,7 @@ apis:
       - Distribution
       - Registries
       - Specification
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://github.com/buildpacks/spec/blob/main/distribution.md
     properties:
       - url: https://github.com/buildpacks/spec/blob/main/distribution.md
@@ -86,7 +86,7 @@ apis:
     tags:
       - CLI
       - Tooling
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://buildpacks.io/docs/for-app-developers/how-to/build-inputs/
     properties:
       - url: https://buildpacks.io/docs/for-app-developers/how-to/build-inputs/
@@ -103,7 +103,7 @@ apis:
     tags:
       - Lifecycle
       - Reference Implementation
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://github.com/buildpacks/lifecycle
     properties:
       - url: https://github.com/buildpacks/lifecycle
@@ -120,7 +120,7 @@ apis:
     tags:
       - Kubernetes
       - Server-side Builds
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://github.com/buildpacks-community/kpack
     properties:
       - url: https://github.com/buildpacks-community/kpack
@@ -137,7 +137,7 @@ apis:
     tags:
       - Discovery
       - Registry
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://registry.buildpacks.io/
     properties:
       - url: https://registry.buildpacks.io/
