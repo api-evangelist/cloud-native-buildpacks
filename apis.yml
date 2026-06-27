@@ -172,7 +172,7 @@ common:
     url: json-ld/cloud-native-buildpacks-context.jsonld
   - type: Spectral
     url: rules/cloud-native-buildpacks-rules.yml
-  - type: Naftiko Capabilities
+  - type: X-NaftikoCapabilities
     url: capabilities/cloud-native-buildpacks.yaml
 maintainers:
   - FN: Kin Lane
