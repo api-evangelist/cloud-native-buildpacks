@@ -150,6 +150,8 @@ apis:
       buildpack packages stored in OCI registries and exposes a
       browseable catalog at registry.buildpacks.io.
 common:
+  - type: DomainSecurity
+    url: security/cloud-native-buildpacks-domain-security.yml
   - type: Website
     url: https://buildpacks.io/
   - type: Documentation
