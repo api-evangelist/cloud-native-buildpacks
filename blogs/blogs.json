@@ -11,10 +11,11 @@
     {
       "source": "https://slack.cncf.io/",
       "feed_url": "https://slack.cncf.io/",
+      "title": "",
       "saved": 0,
-      "error": "no_feed_no_posts"
+      "method": "none"
     }
   ],
   "post_count": 10,
-  "fetched": "2026-07-11T11:50:51Z"
+  "fetched": "2026-08-01T15:49:00Z"
 }
